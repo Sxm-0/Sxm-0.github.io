@@ -1,49 +1,32 @@
 <!DOCTYPE html>
-
-<html>
-  <head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sxm-Z</title>
-    <style>
-      body {
-        background-color: #f7f7f7;
-        margin: 0;
-        padding: 0;
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-	background-image: url(ZZZ.jpeg);
-      }
-      button {
-        background-color: #007bff;
-        color: #fff;
-        padding: 20px 40px;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        transition: background-color 0.3s ease;
-	font-size: 24px;
-      }
-      button:hover {
-        background-color: #0062cc;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-	transform: translateY(-10px);
-	transition: all 0.5s ease;
-      }
-    </style>
-  </head>
-  <body>
-    <button id="change-bg-btn">Get Script</button>
-    <script>
-      const btn = document.querySelector("#change-bg-btn");
-      const body = document.querySelector("body");
-      btn.addEventListener("click", () => {
-	function openInSameWindow(evt) {
-		window.location=evt;
-	}
-        openInSameWindow('https://pastebin.com/raw/h7gvqJTB')
-      });
-    </script>
-  </body>
+    <link rel="stylesheet" href="styles.css">
+    <title>!</title>
+</head>
+<body>
+    <div class="container">
+        <div class="image">
+            <a href="https://www.backmarket.co.uk/en-gb/p/iphone-13-128-gb-unlocked/ef5660d2-6883-4b81-b47d-86e5720687ef#l=10&scroll=false" target="_blank">
+                <img src="https://d2e6ccujb3mkqf.cloudfront.net/ef5660d2-6883-4b81-b47d-86e5720687ef-1_21a9b534-124a-4fa1-a899-fcb5dae7b9a6.jpg" alt="Image 1">
+            </a>
+            <button class="cool-button" onclick="window.open('https://www.backmarket.co.uk/en-gb/p/iphone-13-128-gb-unlocked/ef5660d2-6883-4b81-b47d-86e5720687ef#l=10&scroll=false', '_blank')">iPhone 13</button>
+        </div>
+        <div class="image">
+            <a href="https://www.amazon.co.uk/Protector-Coverage-Tempered-Installation-Case-Friendly/dp/B0C373HL9L/ref=sr_1_5?crid=1FIO23MBK0H1Q&keywords=hi&qid=1697289888&sprefix=hi%2Caps%2C80&sr=8-5" target="_blank">
+                <img src="https://m.media-amazon.com/images/I/71+HOxhzDEL._AC_SX679_.jpg" alt="Image 2">
+            </a>
+            <button class="cool-button" onclick="window.open('https://www.amazon.co.uk/Protector-Coverage-Tempered-Installation-Case-Friendly/dp/B0C373HL9L/ref=sr_1_5?crid=1FIO23MBK0H1Q&keywords=hi&qid=1697289888&sprefix=hi%2Caps%2C80&sr=8-5', '_blank')">iPhone 13 Screen Protector</button>
+        </div>
+        <div class="image">
+            <a href="https://www.amazon.co.uk/TORRAS-iPhone-13-Anti-Yellow-Shockproof/dp/B096TZYX59/ref=sr_1_5?geniuslink=true&keywords=torras+shockproof+iphone+13&qid=1697290471&sr=8-5" target="_blank">
+                <img src="https://m.media-amazon.com/images/I/718hmm4E7GL._AC_SX679_.jpg" alt="Image 3">
+            </a>
+            <button class="cool-button" onclick="window.open('https://www.amazon.co.uk/TORRAS-iPhone-13-Anti-Yellow-Shockproof/dp/B096TZYX59/ref=sr_1_5?geniuslink=true&keywords=torras+shockproof+iphone+13&qid=1697290471&sr=8-5', '_blank')">iPhone 13 Case</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
 </html>
